@@ -1,0 +1,170 @@
+/* disabling all the default properties */
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+.container {
+    margin: 10px 25px;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.navbar-container img {
+    height: 56px;
+}
+
+ul {
+    padding-top: 23px;
+    flex-grow: 3;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 70vh;
+}
+
+.list-item {
+    color: #000000;
+    text-decoration: none;
+    font-family: "Orbitron";
+    font-size: 25px;
+    font-weight: 400;
+}
+  
+  .list-item:hover {
+    color: #080202;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+.button-group {
+    width: 20vh;
+    display: inline-flex;
+    padding-top: 12px;
+    margin-right: 50px;
+}
+
+.nav-button {
+        background: transparent;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        border:  2px solid black;
+        color: #1f1f1f;
+        border-radius: 1em;
+        padding: 7px 43px;
+        margin-left: 6px;
+        margin-right: 12px;
+        text-align: center;
+}
+.search-icon{
+    margin: 4px 13px;
+}
+
+.square {
+    position: absolute;
+    top: 512px;
+    left: 240px;
+}
+.person_img{
+    position:absolute;
+    top:160px;
+    left: 22px
+}
+.star {
+    position: relative;
+    top:160px;
+    left: 1600px;
+}
+.star img {
+    height: 89  px;
+}
+.star2 {
+    position: absolute;
+    top: 800px;
+    left: 900px;
+}
+
+.star2 img{
+    height: 50px;
+}
+
+.globe {
+    position: relative;
+    left: 860px;
+    top: 32px
+}
+.globe img {
+    height: 60px;
+}
+
+.hero-container-right {
+    position: relative;
+    text-align: center;
+    word-wrap: break-word;
+    top: 150px;
+    left: 260px;
+}
+
+.hero-heading {
+    font-family: "Orbitron";
+    font-weight: 800;
+    font-size: 70px;
+    padding-top: 12px;
+    padding-right: 12px;
+    letter-spacing: 2px;
+}
+
+.hero-description {
+    position: relative;
+    padding-left: 500px;
+    padding-top: 40px;
+    padding-right: 500px;
+    padding-bottom: 50px;
+    font-family: "Poppins";
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.join {
+    display: inline;
+}
+
+.button-email {
+    font-family: "Orbitron";
+    padding: 6px 35px;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: #fff;
+    font-weight: 300;
+    font-size: 19px;
+    margin-right: 12px;
+}
+
+.button-join {
+    font-family: "Orbitron";
+    padding: 6px 35px;
+    border: 2px solid black;
+    border-radius: 12px;
+    font-size: 19px;
+    background-color: black;
+    color: white;
+}
+.contact-heading {
+    margin-top: 140px;
+    padding-top: 34px;
+    padding-bottom: 25px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.icons span {
+    margin: 3px 12px;
+}
