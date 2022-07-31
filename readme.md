@@ -14,4 +14,4 @@
 
 ### Links
 ---
-![Demo](https://landingpage0101.netlify.app/)
+[Demo](https://landingpage0101.netlify.app/)
